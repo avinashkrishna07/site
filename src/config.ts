@@ -51,7 +51,7 @@ const config = {
   },
 
   buildEnd: (cfg) => {
-    return gen_rss_feed(cfg, "https://animeshz.github.io", cfg.outDir);
+  //  return gen_rss_feed(cfg, "https://animeshz.github.io", cfg.outDir);
   },
 
   head: [
